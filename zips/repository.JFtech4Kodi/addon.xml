@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.JFtech4Kodi" name="JFtech4Kodi" version="0.0.1" provider-name="JFtechOfficial">
 	<extension point="xbmc.addon.repository" name="JFtech4Kodi">
-		<!--<dir>
+		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>-->
+		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/zips/</datadir>
