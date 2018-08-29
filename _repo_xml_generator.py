@@ -121,8 +121,7 @@ class Generator:
         try:
             m = hashlib.md5()
             m.update((open(os.path.join('zips','addons.xml')).read()).encode('utf-8'))
-            m.hexdigest()
-            self._save_file(m, file=os.path.join('zips','addons.xml.md5'))
+            self._save_file(m.hexdigest(), file=os.path.join('zips','addons.xml.md5'))
         except Exception as e:
             print(e)#"An error occurred creating addons.xml.md5 file!\n%s" % (e)
 
