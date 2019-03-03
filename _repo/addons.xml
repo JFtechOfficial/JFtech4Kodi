@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
 <addon id="plugin.program.hyperion-controller" name="hyperion-controller" version="0.1.0" provider-name="JFtechOfficial">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.routing" version="0.2.0"/>
-		<!-- <import addon="script.module.routing" version="0.2.0" /> -->
-		<!-- <import addon="script.module.nanscrapers" version="0.5.5" /> -->
-        <!-- <import addon="script.module.python.koding.aio" version="0.0.1"/> -->
-        <!-- <import addon="script.module.beautifulsoup4" version="4.3.2"/> -->
+		<import addon="script.module.simplejson" version="3.4.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
@@ -33,3 +31,21 @@
 		</assets>
 	</extension>
 </addon>
+
+    <addon id="repository.JFtech4Kodi" name="JFtech4Kodi" version="1.0.0" provider-name="JFtech">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="JFtech4Kodi">
+            <info compressed="false">https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/JFtechOfficial/repository.JFtech4Kodi/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>JFtech Kodi repo</summary>
+            <description>JFtech Official Kodi repository.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+</addons>

@@ -77,3 +77,19 @@ msgid "cannot connect to the server"
 msgctxt "#30014"
 msgid "Close"
 ""
+
+msgctxt "#32000"
+msgid "IP address"
+""
+
+msgctxt "#32001"
+msgid "Port"
+""
+
+msgctxt "#32002"
+msgid "Priority (lower value = higher priority)"
+""
+
+msgctxt "#32003"
+msgid "Enable debugging mode"
+""

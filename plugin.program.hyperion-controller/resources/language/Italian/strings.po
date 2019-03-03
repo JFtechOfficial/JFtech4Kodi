@@ -70,7 +70,7 @@ msgstr "BLU"
 
 msgctxt "#30010"
 msgid "launching "
-msgstr "lanciando "
+msgstr "avviando "
 ""
 
 msgctxt "#30011"
@@ -91,4 +91,24 @@ msgstr "impossibile connettersi al server"
 msgctxt "#30014"
 msgid "Close"
 msgstr "Chiudi"
+""
+
+msgctxt "#32000"
+msgid "IP address"
+msgstr "Indirizzo IP"
+""
+
+msgctxt "#32001"
+msgid "Port"
+msgstr "Porta"
+""
+
+msgctxt "#32002"
+msgid "Priority (lower value = higher priority)"
+msgstr "Priorità (valore più basso = priorità più alta)"
+""
+
+msgctxt "#32003"
+msgid "Enable debugging mode"
+msgstr "Abilita modalità debug"
 ""
