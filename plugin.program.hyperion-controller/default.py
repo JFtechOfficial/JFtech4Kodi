@@ -266,8 +266,7 @@ def effects():
         effectnames = h.effects_names()
         for effect in effectnames:
             li = xbmcgui.ListItem(effect)
-            xbmcplugin.addDirectoryItem(handle=plugin.handle, url=plugin.url_for(
-                effect_launcher, effect), listitem=li)
+            xbmcplugin.addDirectoryItem(handle=plugin.handle, url=plugin.url_for(effect_launcher, effect), listitem=li)
     except socket.error:
         xbmcgui.Dialog().notification(translate(30012), translate(30013), xbmcgui.NOTIFICATION_ERROR)
     xbmcplugin.endOfDirectory(plugin.handle)
